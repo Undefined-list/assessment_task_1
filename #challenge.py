@@ -1,12 +1,10 @@
-Input = input("Enter what you want to check.")
+Input = input("Enter what you want to check. ")
 words = Input.split()
 Hashtags = []
 for x in words:
     hashtag = "#"
     if x[0] =="#":
         for y in x:
-            if y == "/":
-                break
             if hashtag != "#":
                 hashtag += y
                 continue
