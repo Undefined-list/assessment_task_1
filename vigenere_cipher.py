@@ -22,7 +22,7 @@ def decrypt():
                     i+=1
                     #changing the letter that is in the lower_letter variable
                     if i >= len(message):
-                        #if i equals the length it must break out of the loop, incase the end has more than one special character
+                        #if i equals the length it must break out of the loop, incase the end is a special character
                         break
                 else:
                     special_character = False
